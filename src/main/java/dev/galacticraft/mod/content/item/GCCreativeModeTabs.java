@@ -63,6 +63,16 @@ public class GCCreativeModeTabs {
                 output.accept(MOON_TURF);
                 output.accept(MOON_DIRT);
                 output.accept(MOON_DIRT_PATH);
+                output.accept(MERCURY_TURF);
+                output.accept(MERCURY_DIRT);
+                output.accept(MERCURY_ROCK);
+                output.accept(MERCURY_SULFUR_ORE);
+                output.accept(MERCURY_GARNIERITE_ORE);
+                output.accept(MERCURY_IRON_ORE);
+                output.accept(MERCURY_SILICON_ORE);
+                output.accept(MERCURY_COAL_ORE);
+                output.accept(NICKEL_BLOCK);
+                output.accept(MAGNESIUM_BLOCK);
                 output.accept(MOON_SURFACE_ROCK);
                 output.accept(MOON_DUNGEON_BRICK);
 
@@ -294,6 +304,10 @@ public class GCCreativeModeTabs {
                 BATTERY.setStoredEnergy(chargedBattery, BATTERY.getEnergyCapacity(chargedBattery));
                 output.accept(chargedBattery);
                 output.accept(INFINITE_BATTERY);
+                output.accept(NICKEL_BATTERY);
+                ItemStack chargedNickelBattery = new ItemStack(NICKEL_BATTERY);
+                NICKEL_BATTERY.setStoredEnergy(chargedNickelBattery, NICKEL_BATTERY.getEnergyCapacity(chargedNickelBattery));
+                output.accept(chargedNickelBattery);
 
                 // FLUID CANISTERS
                 output.accept(FLUID_CANISTER);
@@ -329,6 +343,9 @@ public class GCCreativeModeTabs {
                 output.accept(RAW_ALUMINUM);
                 output.accept(RAW_METEORIC_IRON);
                 output.accept(RAW_DESH);
+                output.accept(RAW_NICKEL);
+                output.accept(SULFUR);
+                output.accept(MAGNESIUM);
                 output.accept(RAW_TITANIUM);
                 output.accept(RAW_LEAD);
                 output.accept(SILICON);
@@ -346,6 +363,7 @@ public class GCCreativeModeTabs {
                 output.accept(ALUMINUM_INGOT);
                 output.accept(METEORIC_IRON_INGOT);
                 output.accept(DESH_INGOT);
+                output.accept(NICKEL_INGOT);
                 output.accept(TITANIUM_INGOT);
                 output.accept(LEAD_INGOT);
 

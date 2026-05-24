@@ -1,0 +1,42 @@
+{
+  "has_precipitation": false,
+  "temperature": 2.0,
+  "downfall": 0.0,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 4536392,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "mood_sound": { "block_search_extent": 8, "offset": 2.0, "sound": "minecraft:ambient.cave", "tick_delay": 6000 }
+  },
+  "spawners": {
+    "monster": [
+      {"type":"galacticraft:evolved_zombie","maxCount":4,"minCount":4,"weight":95},
+      {"type":"galacticraft:evolved_skeleton","maxCount":4,"minCount":4,"weight":100},
+      {"type":"galacticraft:evolved_creeper","maxCount":4,"minCount":4,"weight":100},
+      {"type":"galacticraft:evolved_spider","maxCount":4,"minCount":4,"weight":100},
+      {"type":"galacticraft:evolved_enderman","maxCount":4,"minCount":1,"weight":10},
+      {"type":"galacticraft:evolved_witch","maxCount":1,"minCount":1,"weight":5}
+    ],
+    "creature":[],"ambient":[],"axolotls":[],"underground_water_creature":[],"water_creature":[],"water_ambient":[],"misc":[]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "galacticraft:moon_crater_carver",
+      "galacticraft:moon_canyon_carver",
+      "galacticraft:moon_highlands_cave_carver"
+    ]
+  },
+  "features": [
+    [], [], [], [], [], [],
+    [
+      "galacticraft:ore_iron_mercury",
+      "galacticraft:ore_coal_mercury",
+      "galacticraft:ore_garnierite_mercury",
+      "galacticraft:ore_sulfur_mercury",
+      "galacticraft:ore_silicon_mercury"
+    ],
+    [], [], [], []
+  ]
+}

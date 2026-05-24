@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.85,
+  "group": "nickel_ingot",
+  "ingredient": { "item": "galacticraft:raw_nickel" },
+  "result": { "id": "galacticraft:nickel_ingot" }
+}

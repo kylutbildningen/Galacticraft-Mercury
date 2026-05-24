@@ -1,12 +1,16 @@
 {
-  "type": "galacticraft:decorative_planet",
+  "type": "galacticraft:planet",
   "config": {
     "parent": "galacticraft:sol",
+    "access_weight": 1,
     "atmosphere": {
       "composition": {},
       "pressure": 3.0E-15,
       "temperature": 23.0
     },
+    "celestial_handler": "galacticraft:default",
+    "day_length": 720000,
+    "day_temperature": 430,
     "description": {
       "translate": "planet.galacticraft.mercury.description"
     },
@@ -21,10 +25,11 @@
         "width": 16
       }
     },
-    "gravity": 0.166,
+    "gravity": 0.38,
     "name": {
       "translate": "planet.galacticraft.mercury"
     },
+    "night_temperature": -180,
     "position": {
       "type": "galacticraft:orbital",
       "config": {
@@ -37,6 +42,8 @@
     "ring": {
       "type": "galacticraft:default",
       "config": {}
-    }
+    },
+    "teleporter": "galacticraft:lander",
+    "world": "galacticraft:mercury"
   }
 }

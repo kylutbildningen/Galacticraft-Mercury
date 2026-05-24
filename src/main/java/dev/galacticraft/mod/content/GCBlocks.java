@@ -100,6 +100,17 @@ public class GCBlocks {
     public static final Block MOON_TURF = BLOCKS.registerWithItem(Constant.Block.MOON_TURF, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).strength(0.5F, 0.5F)));
     public static final Block MOON_DIRT = BLOCKS.registerWithItem(Constant.Block.MOON_DIRT, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).strength(0.5F, 0.5F).sound(SoundType.GRAVEL)));
     public static final Block MOON_DIRT_PATH = BLOCKS.registerWithItem(Constant.Block.MOON_DIRT_PATH, new MoonDirtPathBlock(BlockBehaviour.Properties.ofFullCopy(MOON_DIRT).strength(0.5F, 0.5F)));
+    // MERCURY NATURAL
+    public static final Block MERCURY_TURF = BLOCKS.registerWithItem(Constant.Block.MERCURY_TURF, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).strength(0.5F, 0.5F)));
+    public static final Block MERCURY_DIRT = BLOCKS.registerWithItem(Constant.Block.MERCURY_DIRT, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).strength(0.5F, 0.5F).sound(SoundType.GRAVEL)));
+    public static final Block MERCURY_ROCK = BLOCKS.registerWithItem(Constant.Block.MERCURY_ROCK, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_BROWN).instrument(NoteBlockInstrument.BASEDRUM).strength(2.0F, 6.0F).requiresCorrectToolForDrops()));
+    public static final Block MERCURY_SULFUR_ORE = BLOCKS.registerWithItem(Constant.Block.MERCURY_SULFUR_ORE, new DropExperienceBlock(ConstantInt.of(0), oreSettings(MERCURY_ROCK, 3.0F, 5.0F)));
+    public static final Block MERCURY_GARNIERITE_ORE = BLOCKS.registerWithItem(Constant.Block.MERCURY_GARNIERITE_ORE, new DropExperienceBlock(ConstantInt.of(0), oreSettings(MERCURY_ROCK, 3.0F, 5.0F)));
+    public static final Block MERCURY_IRON_ORE = BLOCKS.registerWithItem(Constant.Block.MERCURY_IRON_ORE, new DropExperienceBlock(ConstantInt.of(0), oreSettings(MERCURY_ROCK, 3.0F, 5.0F)));
+    public static final Block MERCURY_SILICON_ORE = BLOCKS.registerWithItem(Constant.Block.MERCURY_SILICON_ORE, new DropExperienceBlock(ConstantInt.of(0), oreSettings(MERCURY_ROCK, 3.0F, 5.0F)));
+    public static final Block MERCURY_COAL_ORE = BLOCKS.registerWithItem(Constant.Block.MERCURY_COAL_ORE, new DropExperienceBlock(ConstantInt.of(0), oreSettings(MERCURY_ROCK, 3.0F, 5.0F)));
+    public static final Block NICKEL_BLOCK = BLOCKS.registerWithItem(Constant.Block.NICKEL_BLOCK, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+    public static final Block MAGNESIUM_BLOCK = BLOCKS.registerWithItem(Constant.Block.MAGNESIUM_BLOCK, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).strength(5.0F, 6.0F).sound(SoundType.METAL).requiresCorrectToolForDrops()));
     public static final Block MOON_SURFACE_ROCK = BLOCKS.registerWithItem(Constant.Block.MOON_SURFACE_ROCK, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).instrument(NoteBlockInstrument.BASEDRUM).strength(1.5F, 6.0F).requiresCorrectToolForDrops()));
     public static final Block MOON_DUNGEON_BRICK = BLOCKS.registerWithItem(Constant.Block.MOON_DUNGEON_BRICK, new Block(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).instrument(NoteBlockInstrument.BASEDRUM).strength(1.5F, 2.5F).requiresCorrectToolForDrops()));
 

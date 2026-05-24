@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 public class GCDimensionEffects {
     public static final ResourceLocation MOON = Constant.id("moon");
     public static final ResourceLocation VENUS = Constant.id("venus");
+    public static final ResourceLocation MERCURY = Constant.id("mercury");
     public static final ResourceLocation ASTEROID = Constant.id("asteroid");
     public static final ResourceLocation SATELLITE = Constant.id("satellite");
 

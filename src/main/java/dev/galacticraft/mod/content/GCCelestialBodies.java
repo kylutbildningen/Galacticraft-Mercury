@@ -171,19 +171,25 @@ public class GCCelestialBodies {
                 192000L,
                 null
         )));
-
-        context.register(MERCURY, DecorativePlanetType.INSTANCE.configure(new DecorativePlanetConfig(
+        context.register(MERCURY, PlanetType.INSTANCE.configure(new PlanetConfig(
                 Component.translatable(Translations.CelestialBody.MERCURY),
                 Component.translatable(Translations.CelestialBody.MERCURY_DESC),
                 Optional.of(SOL),
                 OrbitalCelestialPositionType.INSTANCE.configure(new OrbitalCelestialPositionConfig(0.24096385542168674698795180722892F, 0.5F, 1.45F, true)),
                 IconCelestialDisplayType.INSTANCE.configure(new IconCelestialDisplayConfig(Constant.CelestialBody.MERCURY, 0, 0, 16, 16)),
                 DefaultCelestialRingDisplayType.INSTANCE.configure(new DefaultCelestialRingDisplayConfig()),
+                GCDimensions.MERCURY,
+                teleporters.getOrThrow(GCTeleporterTypes.LANDER_CELESTIAL_TELEPORTER),
                 new GasComposition.Builder()
                         .temperature(23.0)
                         .pressure(3.0E-15F)
                         .build(),
-                0.166F,
+                0.38F,
+                GCCelestialHandlers.DEFAULT,
+                1,
+                430,
+                -180,
+                720000L,
                 null
         )));
 

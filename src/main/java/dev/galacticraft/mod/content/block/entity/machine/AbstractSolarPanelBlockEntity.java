@@ -99,6 +99,10 @@ public abstract class AbstractSolarPanelBlockEntity extends MachineBlockEntity i
         MachineStatus status = null;
         double multiplier = this.blocked == 0 ? 1 : (9.0 - this.blocked) / 9.0;
         if (this.blocked > 0) status = GCMachineStatuses.PARTIALLY_GENERATING;
+        // Mercury: 4x solenergi (mycket närmare solen)
+        if (level.dimension() == dev.galacticraft.mod.world.dimension.GCDimensions.MERCURY) {
+            multiplier *= 4.0;
+        }
         if (level.isThundering()) {
             if (status == null) status = GCMachineStatuses.PARTIALLY_GENERATING;
             multiplier *= 0.1;

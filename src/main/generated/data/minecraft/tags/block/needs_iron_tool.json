@@ -5,6 +5,12 @@
     "galacticraft:asteroid_silicon_ore",
     "galacticraft:fallen_meteor",
     "galacticraft:lunar_sapphire_ore",
-    "galacticraft:silicon_block"
+    "galacticraft:silicon_block",
+    "galacticraft:mercury_sulfur_ore",
+    "galacticraft:mercury_garnierite_ore",
+    "galacticraft:mercury_iron_ore",
+    "galacticraft:mercury_silicon_ore",
+    "galacticraft:nickel_block",
+    "galacticraft:magnesium_block"
   ]
 }

@@ -148,6 +148,16 @@ public interface Constant {
         String RICH_OLIVINE_BASALT = "rich_olivine_basalt";
 
         String MOON_DIRT = "moon_dirt";
+        String MERCURY_TURF = "mercury_turf";
+        String MERCURY_DIRT = "mercury_dirt";
+        String MERCURY_ROCK = "mercury_rock";
+        String MERCURY_SULFUR_ORE = "mercury_sulfur_ore";
+        String MERCURY_GARNIERITE_ORE = "mercury_garnierite_ore";
+        String MERCURY_IRON_ORE = "mercury_iron_ore";
+        String MERCURY_SILICON_ORE = "mercury_silicon_ore";
+        String MERCURY_COAL_ORE = "mercury_coal_ore";
+        String NICKEL_BLOCK = "nickel_block";
+        String MAGNESIUM_BLOCK = "magnesium_block";
         String MARS_SURFACE_ROCK = "mars_surface_rock";
         String MARS_SUB_SURFACE_ROCK = "mars_sub_surface_rock";
         String MARS_STONE = "mars_stone";
@@ -406,6 +416,10 @@ public interface Constant {
         String ITEM_GROUP = "items";
         String SILICON = "silicon";
         String EMPTY_CAN = "empty_can";
+        String RAW_NICKEL = "raw_nickel";
+        String NICKEL_INGOT = "nickel_ingot";
+        String MAGNESIUM = "magnesium";
+        String SULFUR = "sulfur";
         String CANNED_FOOD = "canned_food";
         String CANNED_FOOD_LABEL = "canned_food_label";
         String RAW_SILICON = "raw_silicon";
@@ -518,6 +532,7 @@ public interface Constant {
         String STANDARD_WRENCH = "standard_wrench";
         String TITANTIUM_UPGRADE_SMITHING_TEMPLATE = "titanium_upgrade_smithing_template";
         String BATTERY = "battery";
+        String NICKEL_BATTERY = "nickel_battery";
         String INFINITE_BATTERY = "infinite_battery";
         String INFINITE_INDICATOR = "infinite_indicator";
         String FLUID_CANISTER = "fluid_canister";

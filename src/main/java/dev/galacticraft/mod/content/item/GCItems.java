@@ -86,6 +86,10 @@ public class GCItems {
     public static final Item COMPRESSED_METEORIC_IRON = registerGeneric(Constant.Item.COMPRESSED_METEORIC_IRON);
 
     public static final Item RAW_DESH = registerGeneric(Constant.Item.RAW_DESH);
+    public static final Item RAW_NICKEL = registerGeneric(Constant.Item.RAW_NICKEL);
+    public static final Item NICKEL_INGOT = registerGeneric(Constant.Item.NICKEL_INGOT);
+    public static final Item MAGNESIUM = registerGeneric(Constant.Item.MAGNESIUM);
+    public static final Item SULFUR = registerGeneric(Constant.Item.SULFUR);
     public static final Item DESH_INGOT = registerGeneric(Constant.Item.DESH_INGOT);
     public static final Item DESH_NUGGET = registerGeneric(Constant.Item.DESH_NUGGET);
     public static final Item COMPRESSED_DESH = registerGeneric(Constant.Item.COMPRESSED_DESH);
@@ -208,6 +212,7 @@ public class GCItems {
 
     // BATTERIES
     public static final BatteryItem BATTERY = ITEMS.register(Constant.Item.BATTERY, new BatteryItem(new Item.Properties().stacksTo(1), 15000, 500));
+    public static final BatteryItem NICKEL_BATTERY = ITEMS.register(Constant.Item.NICKEL_BATTERY, new BatteryItem(new Item.Properties().stacksTo(1), 30000, 500));
     public static final Item INFINITE_BATTERY = ITEMS.register(Constant.Item.INFINITE_BATTERY, new InfiniteBatteryItem(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC)));
 
     // GALACTICRAFT INVENTORY
