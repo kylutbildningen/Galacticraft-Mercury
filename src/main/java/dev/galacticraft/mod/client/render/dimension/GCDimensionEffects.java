@@ -51,5 +51,10 @@ public class GCDimensionEffects {
         DimensionRenderingRegistry.registerSkyRenderer(GCDimensions.ASTEROID, AsteroidSkyRenderer.INSTANCE);
 
         DimensionRenderingRegistry.registerDimensionEffects(SATELLITE, AsteroidDimensionEffects.INSTANCE);
+
+        DimensionRenderingRegistry.registerDimensionEffects(MERCURY, MercuryDimensionEffects.INSTANCE);
+        DimensionRenderingRegistry.registerCloudRenderer(GCDimensions.MERCURY, EmptyCloudRenderer.INSTANCE);
+        DimensionRenderingRegistry.registerWeatherRenderer(GCDimensions.MERCURY, EmptyWeatherRenderer.INSTANCE);
+        DimensionRenderingRegistry.registerSkyRenderer(GCDimensions.MERCURY, MercurySkyRenderer.INSTANCE);
     }
 }

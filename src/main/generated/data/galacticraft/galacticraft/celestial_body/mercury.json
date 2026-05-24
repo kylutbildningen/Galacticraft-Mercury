@@ -9,7 +9,7 @@
       "temperature": 23.0
     },
     "celestial_handler": "galacticraft:default",
-    "day_length": 720000,
+    "day_length": 12000,
     "day_temperature": 430,
     "description": {
       "translate": "planet.galacticraft.mercury.description"
